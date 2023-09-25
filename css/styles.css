@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.bg-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.static-gif {
+    width: 1200px;
+    pointer-events: none;
+    height: 100px;
+    z-index: 0;
+}
+
+.bg-image {
+    width: 1200px;
+    pointer-events: none;
+    z-index: 1;
+}
